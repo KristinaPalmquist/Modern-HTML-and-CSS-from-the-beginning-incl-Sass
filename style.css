@@ -1,0 +1,77 @@
+:root {
+  --primary: #e34c26;
+  --secondary: #f06529;
+
+  --blue: #264de4;
+  --lightBlue: #2965f1;
+
+  --white: #fff;
+  --black: #000;
+  --almostBlack: #333;
+  --darkGray: #555;
+  --gray: #777;
+  --lightGray: #f4f4f4;
+  --lightYellow: cornsilk;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background-color: var(--lightYellow);
+  color: var(--almostBlack);
+}
+
+header nav {
+  width: 100%;
+  background-color: var(--primary);
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--almostBlack);
+  padding: 20px;
+}
+
+header nav ul li a:hover {
+    background-color: var(--secondary);
+    color: var(--black);
+  
+}
+
+main {
+  background-color: var(--white);
+}
+
+.container {
+  max-width: 1200px;
+}
+
+header h1 {
+  text-align: center;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 30px;
+}
+
+h1 span {
+  color: var(--darkGray);
+}
