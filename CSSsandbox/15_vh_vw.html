@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viewport width & height Units</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      header {
+        background: #333
+          url('https://images.pexels.com/photos/27372391/pexels-photo-27372391/free-photo-of-a-person-standing-on-top-of-a-mountain-with-rocks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+          no-repeat center center/cover;
+        color: #fff;
+        height: 100vh;
+        width: 100vw;
+        text-align: center;
+        padding: 2rem;
+        padding-top: 15rem;
+      }
+
+      header h1 {
+        font-size: 3rem;
+      }
+
+      header p {
+        margin: 1rem 0;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #f4f4f4;
+        color: #333;
+        padding: 0.75rem 2rem;
+      }
+
+      section {
+        padding: 2rem;
+      }
+
+      @media (max-height: 450px) {
+        header {
+          padding-top: 7rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to our website</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi fugiat
+        ea officia fuga commodi possimus!
+      </p>
+      <a href="#" class="btn">Find out more</a>
+    </header>
+
+    <section>
+      <h3>About Our Company</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem
+        accusamus magnam ex fugit quia nulla aliquam at nemo, nisi dicta
+        voluptatum consequatur autem molestias ipsam placeat, quidem hic
+        repellat delectus harum tempora voluptatibus. Quam sit illum nesciunt
+        optio incidunt obcaecati eos molestias beatae eaque! Consequatur saepe
+        quisquam non. Facilis.
+      </p>
+    </section>
+  </body>
+</html>
