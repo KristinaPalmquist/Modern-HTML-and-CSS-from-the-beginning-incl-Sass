@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Basics</title>
+    <style>
+      #container {
+        display: flex;
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        flex-flow: row wrap;
+        height: 100vh;
+      }
+      .item {
+        background: #f4f4f4;
+        border: #ccc solid 1px;
+        padding: 1rem;
+        text-align: center;
+        margin: 0.75rem;
+        flex: 1;
+      }
+
+      .item:first-child {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="item"><h3>Item 00</h3></div>
+      <div class="item"><h3>Item 01</h3></div>
+      <div class="item"><h3>Item 02</h3></div>
+      <div class="item"><h3>Item 03</h3></div>
+      <div class="item"><h3>Item 04</h3></div>
+      <div class="item"><h3>Item 05</h3></div>
+      <div class="item"><h3>Item 06</h3></div>
+      <div class="item"><h3>Item 07</h3></div>
+      <div class="item"><h3>Item 08</h3></div>
+      <div class="item"><h3>Item 09</h3></div>
+      <div class="item"><h3>Item 10</h3></div>
+      <div class="item"><h3>Item 11</h3></div>
+      <div class="item"><h3>Item 12</h3></div>
+      <div class="item"><h3>Item 13</h3></div>
+      <div class="item"><h3>Item 14</h3></div>
+      <div class="item"><h3>Item 15</h3></div>
+      <div class="item"><h3>Item 16</h3></div>
+      <div class="item"><h3>Item 17</h3></div>
+      <div class="item"><h3>Item 18</h3></div>
+      <div class="item"><h3>Item 19</h3></div>
+    </div>
+  </body>
+</html>
