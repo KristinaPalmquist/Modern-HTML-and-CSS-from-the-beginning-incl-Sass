@@ -173,13 +173,10 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* height: 100%; */
   height: calc(100% + 5px);
   padding: 0 2rem;
   /* Overlay */
   position: absolute;
-  /* top: 65px; */
-
   top: 0;
   left: 0;
   right: 0;
