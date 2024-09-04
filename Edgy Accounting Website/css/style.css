@@ -257,3 +257,23 @@ p {
   display: block;
   margin: 0 auto;
 }
+
+/* Section: Success */
+#success {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+ 
+}
+#success .container {
+  margin-top: 100px;
+}
+
+.sticky-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+
