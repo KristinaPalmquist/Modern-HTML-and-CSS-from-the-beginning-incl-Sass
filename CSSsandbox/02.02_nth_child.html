@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nth child</title>
+    <style>
+        li {
+            padding: 0.25rem;
+            margin: 0.25rem;
+            list-style: none;
+        }
+
+        li:first-child {
+            background: rgb(254, 154, 154);
+        }
+
+        li:last-child {
+            background: rgb(156, 244, 156);
+        }
+        
+        li:nth-child(3) {
+            background: rgb(254, 254, 148);
+        }
+
+        li:nth-child(even) {
+            background: rgb(166, 166, 254)
+        }
+
+        li:nth-child(3n+4) {
+            background: rgb(247, 196, 100);
+        }
+        li:nth-child(3n+5) {
+            background: rgb(238, 133, 238);
+        }
+        li:nth-child(odd) {
+            background: green;
+        }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+      <li>Item 9</li>
+      <li>Item 10</li>
+      <li>Item 11</li>
+      <li>Item 12</li>
+      <li>Item 13</li>
+      <li>Item 14</li>
+      <li>Item 15</li>
+      <li>Item 16</li>
+      <li>Item 17</li>
+      <li>Item 18</li>
+      <li>Item 19</li>
+      <li>Item 20</li>
+    </ul>
+  </body>
+</html>
