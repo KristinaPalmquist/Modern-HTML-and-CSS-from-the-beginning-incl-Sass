@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyframes Part 2</title>
+    <style>
+      body {
+        background: #333;
+        height: 100vh;
+        width: 100vw;
+      }
+      .box {
+        background: hotpink;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: animate1 10s forwards ease-in-out;
+      }
+      @keyframes animate1 {
+        15% {
+          top: 0;
+          left: 50%;
+          background: orange;
+        }
+        25% {
+          top: 50%;
+          left: 75%;
+          background: yellow;
+        }
+        40% {
+          top: 100%;
+          left: 30%;
+          background: green;
+        }
+        55% {
+          top: 75%;
+          left: 50%;
+          background: blue;
+        }
+        75% {
+          top: 30%;
+          left: -20%;
+          background: purple;
+        }
+        90% {
+          top: 20%;
+          left: 10%;
+          background-color: hotpink;
+        }
+        100% {
+          background: red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
