@@ -46,7 +46,7 @@ header nav ul {
 
 header nav ul li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   text-transform: uppercase;
   color: var(--almostBlack);
   padding: 20px 10px;
@@ -88,6 +88,10 @@ header h1 {
 
 h1 span {
   color: var(--darkGray);
+}
+
+main div {
+  font-size: 2rem;
 }
 
 @media (max-width: 500px) {

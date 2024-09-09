@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Area</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-areas:
+          'header header header'
+          'content content sidebar'
+          'box-1 box-2 box-2'
+          'box-3 box-3 box-3'
+          'footer footer footer';
+        gap: 1rem;
+      }
+      .header {
+        grid-area: header;
+        text-align: center;
+      }
+
+      .content {
+        grid-area: content;
+      }
+      .sidebar {
+        grid-area: sidebar;
+      }
+      .box-1 {
+        grid-area: box-1;
+      }
+      .box-2 {
+        grid-area: box-2;
+      }
+      .box-3 {
+        grid-area: box-3;
+      }
+      .footer {
+        grid-area: footer;
+        text-align: center;
+      }
+
+      .border {
+        border: 1px solid #ccc;
+        padding: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header border">
+        <h1>My Website</h1>
+      </header>
+      <section class="content border">
+        <h3>Welcome To My Site</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
+          explicabo perferendis fuga nam. Minus sequi hic eveniet excepturi
+          libero doloribus corporis ullam debitis magnam cum, dignissimos
+          quibusdam harum totam, architecto modi quia! Error, minima laboriosam.
+          Eveniet sint inventore animi tempore similique. Nam doloribus
+          cupiditate quas saepe odit enim eum esse?
+        </p>
+      </section>
+      <aside class="sidebar border">
+        <h3>Contact Us</h3>
+        <ul>
+          <li>Some Company</li>
+          <li>50 Main st, Boston MA</li>
+          <li>something@something.com</li>
+          <li>555-555-5555</li>
+        </ul>
+      </aside>
+      <div class="box-1 border">
+        <h3>Heading Box 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          dolores, quo sunt quibusdam repellendus provident corporis iste fuga,
+          cupiditate nobis pariatur adipisci, tempora quod aliquam mollitia.
+          Eveniet nihil pariatur culpa?
+        </p>
+      </div>
+      <div class="box-2 border">
+        <h3>Heading Box 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          dolores, quo sunt quibusdam repellendus provident corporis iste fuga,
+          cupiditate nobis pariatur adipisci, tempora quod aliquam mollitia.
+          Eveniet nihil pariatur culpa?
+        </p>
+      </div>
+      <div class="box-3 border">
+        <h3>Heading Box 3</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          dolores, quo sunt quibusdam repellendus provident corporis iste fuga,
+          cupiditate nobis pariatur adipisci, tempora quod aliquam mollitia.
+          Eveniet nihil pariatur culpa?
+        </p>
+      </div>
+      <footer class="footer border"><p>Copyright &copy; 2024</p></footer>
+    </div>
+  </body>
+</html>
