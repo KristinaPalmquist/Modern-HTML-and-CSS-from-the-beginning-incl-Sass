@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Media Queries</title>
+    <style>
+      .grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .item {
+        border: 1px solid #333;
+        padding: 1rem;
+      }
+
+      @media (max-width: 768px) {
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 600px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="item">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur et
+          itaque ab eveniet, eaque nobis?
+        </p>
+      </div>
+      <div class="item">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur et
+          itaque ab eveniet, eaque nobis?
+        </p>
+      </div>
+      <div class="item">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur et
+          itaque ab eveniet, eaque nobis?
+        </p>
+      </div>
+      <div class="item">
+        <h3>Heading</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur et
+          itaque ab eveniet, eaque nobis?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

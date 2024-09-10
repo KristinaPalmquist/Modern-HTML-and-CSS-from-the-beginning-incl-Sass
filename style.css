@@ -47,7 +47,7 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--almostBlack);
   padding: 20px 10px;
   border-left: 0.5px dotted var(--secondary);
