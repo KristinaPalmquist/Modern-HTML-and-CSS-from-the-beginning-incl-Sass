@@ -280,9 +280,6 @@ img {
 }
 #about-a .bio-image {
   grid-area: bioimage;
-  height: 200px;
-  width: auto;
-  margin: auto;
 }
 #about-a .bio {
   grid-area: bio;
@@ -302,6 +299,26 @@ img {
 #about-a .award-3 .fas {
   color: #ffbc00;
   margin: 1rem;
+}
+#about-b .progress {
+  overflow: hidden;
+  height: 20px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+#about-b .progress div {
+  height: 100%;
+  background-color: #ffbc00;
+  color: #fff;
+  text-align: center;
+}
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  text-align: center;
+  color: #ccc;
 }
 
 #main-footer {
