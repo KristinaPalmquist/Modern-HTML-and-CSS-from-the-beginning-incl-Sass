@@ -72,7 +72,7 @@ class TypeWriter {
       // Remove char
       this.txt = fullTxt.substring(0, this.txt.length - 1);
     } else {
-      // Add char
+      // Add char if not
       this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
